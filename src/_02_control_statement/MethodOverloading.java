@@ -13,7 +13,7 @@ public class MethodOverloading {
         // 2. 객체의 메서드 사용
         System.out.println(ol.add(1,2));
         System.out.println(ol.add(1.1,2.2));
-        // 부동 소수점의 한계
+        // 부동 소수점의 한계 -> BigDecimal 클래스 이용해서 계산
         System.out.println(ol.add(1,2,3));
         System.out.println(ol.add(1.1,2.2, 3.3));
     }
